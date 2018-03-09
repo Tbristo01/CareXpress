@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>77697307028-6h4fvpnccubf64m9ncs2a4ff8obiau9n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.77697307028-6h4fvpnccubf64m9ncs2a4ff8obiau9n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCkJfKI0gGBQFV_rHL6rutzE-YoLFSUeZg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77697307028</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tishaunbristol.CareXpress</string>
+	<key>PROJECT_ID</key>
+	<string>carexpress-db</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carexpress-db.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77697307028:ios:201371e51f5bcc01</string>
+	<key>DATABASE_URL</key>
+	<string>https://carexpress-db.firebaseio.com</string>
+</dict>
+</plist>
