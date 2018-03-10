@@ -27,12 +27,26 @@ class ViewController: UIViewController {
 
     @IBAction func signInButtonPressed(_ sender: Any) {
         
-        
+        self.Login()
     }
     
-    func Login () {
-        
+  
+    func Login ()
+    {
+            Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!)
+            { (user, error) in
+                if error != nil {
+                    
+                    print("error")
+                }
+                else
+                {
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "landingscreen")
+                    self.present(vc!, animated: true, completion: nil)
+                }
+            }
     }
+    
     
     @IBAction func passwordReset(_ sender: Any) {
         

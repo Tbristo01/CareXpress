@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class newAccount: UIViewController {
 
@@ -16,13 +18,30 @@ class newAccount: UIViewController {
     
     @IBAction func createAccountPressed(_ sender: Any) {
         
+        
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!   )
+        { (user, error) in
+            if error != nil {
+                
+                print("Something went wrong")
+            }
+            else
+            {
+                print("User is created ")
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "landingscreen")
+                self.present(vc!, animated: true, completion: nil)
+        
+            }
+        }
+
+    
     }
     
-    @IBAction func homeButtonPressed(_ sender: Any) {
         
+    @IBAction func homeButtonPressed(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "home")
         self.present(vc!, animated: true, completion: nil)
         
     }
-    
+   
 }

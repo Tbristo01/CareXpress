@@ -15,6 +15,7 @@
 		9D2499D820523EC70026AA41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D2499D720523EC70026AA41 /* GoogleService-Info.plist */; };
 		9DA8F0D72054269F009A656A /* passwordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8F0D62054269F009A656A /* passwordReset.swift */; };
 		9DA8F0D9205426BB009A656A /* newAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8F0D8205426BB009A656A /* newAccount.swift */; };
+		9DA8F0DB20543312009A656A /* landinScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8F0DA20543312009A656A /* landinScreen.swift */; };
 		B156E994108AFCD38C07EF7F /* Pods_CareXpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE73D20C521ACFFB4938C2A /* Pods_CareXpress.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		9D2499D720523EC70026AA41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DA8F0D62054269F009A656A /* passwordReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordReset.swift; sourceTree = "<group>"; };
 		9DA8F0D8205426BB009A656A /* newAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAccount.swift; sourceTree = "<group>"; };
+		9DA8F0DA20543312009A656A /* landinScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landinScreen.swift; sourceTree = "<group>"; };
 		B71401E5D567E97D3FFA64BB /* Pods-CareXpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareXpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareXpress/Pods-CareXpress.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2D741866BF94CB292CAB6D /* Pods-CareXpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareXpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareXpress/Pods-CareXpress.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				9D2499C720523E960026AA41 /* ViewController.swift */,
 				9DA8F0D8205426BB009A656A /* newAccount.swift */,
 				9DA8F0D62054269F009A656A /* passwordReset.swift */,
+				9DA8F0DA20543312009A656A /* landinScreen.swift */,
 				9D2499CC20523E960026AA41 /* Assets.xcassets */,
 				9D2499C920523E960026AA41 /* Main.storyboard */,
 				9D2499CE20523E960026AA41 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8F0DB20543312009A656A /* landinScreen.swift in Sources */,
 				9D2499C820523E960026AA41 /* ViewController.swift in Sources */,
 				9DA8F0D72054269F009A656A /* passwordReset.swift in Sources */,
 				9DA8F0D9205426BB009A656A /* newAccount.swift in Sources */,
