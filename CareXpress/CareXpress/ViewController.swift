@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
+    @IBOutlet var emailTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,31 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func signInButtonPressed(_ sender: Any) {
+        
+        
+    }
+    
+    func Login () {
+        
+    }
+    
+    @IBAction func passwordReset(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "passwordReset")
+        self.present(vc!, animated: true, completion: nil)
+        
+        
+    }
+    
+    @IBAction func createNewAccount(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "newAccount")
+        self.present(vc!, animated: true, completion: nil)
+        
+        
+    }
+    
+    
 }
 
